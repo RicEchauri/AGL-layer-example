@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Application
+Name=Helloworld demo
+Exec=/usr/bin/helloworld
+Version=1.5
+#Version of the desktop entry specification the file conforms to, must be 1.5
+Hidden=false
+#true-> the application is always ignored by aplaunch
+Terminal=true 
+#false=graphical application
+#true=application marked as a non-graphical one
+DBusActivatable=false
+#false -> no D-Bus activated
+#true -> Marked as D-bus activated
+#Implements=''
+#List of D-Bus interfaces the application implements, only used for D-Bus activated applications.
+#For graphical applications.
+#StartupWMClass=APP_ID
+#APP_ID.desktop, 
+#Icon=/home/ricardo/bosch/flutter/src/counetr/snap/gui/icon.png 
+
+#Categories=Application;
+
