@@ -1,0 +1,10 @@
+[Unit]
+Description=Example session service
+
+[Service]
+Type=dbus
+BusName=app
+ExecStart=/usr/bin/helloworld
+
+[Install]
+WantedBy=multi-user.target

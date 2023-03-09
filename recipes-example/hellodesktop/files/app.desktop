@@ -9,10 +9,10 @@ Hidden=false
 Terminal=true 
 #false=graphical application
 #true=application marked as a non-graphical one
-DBusActivatable=false
+DBusActivatable=true
 #false -> no D-Bus activated
 #true -> Marked as D-bus activated
-#Implements=''
+Implements=dbus-app
 #List of D-Bus interfaces the application implements, only used for D-Bus activated applications.
 #For graphical applications.
 #StartupWMClass=APP_ID
